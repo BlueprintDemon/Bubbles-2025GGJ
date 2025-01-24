@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/2302181/AgameAboutBubbles
+C:/Users/2302181/AgameAboutBubbles/Bubbles-2025GGJ
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51579
+52228
 -job-worker-count
 15
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/2302181/AgameAboutBubbles
-C:/Users/2302181/AgameAboutBubbles
+Successfully changed project path to: C:/Users/2302181/AgameAboutBubbles/Bubbles-2025GGJ
+C:/Users/2302181/AgameAboutBubbles/Bubbles-2025GGJ
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,20 +59,20 @@ C:/Users/2302181/AgameAboutBubbles
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28272]  Target information:
+Player connection [32540]  Target information:
 
-Player connection [28272]  * "[IP] 10.1.24.39 [Port] 0 [Flags] 2 [Guid] 511350607 [EditorId] 511350607 [Version] 1048832 [Id] WindowsEditor(7,S-C003-K000786) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32540]  * "[IP] 10.1.24.39 [Port] 0 [Flags] 2 [Guid] 273709661 [EditorId] 273709661 [Version] 1048832 [Id] WindowsEditor(7,S-C003-K000786) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28272] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32540] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32540] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 Library Redirect Path: Library/
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.15f1 (6a96561936c0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/2302181/AgameAboutBubbles/Assets
+[Subsystems] Discovering subsystems at path C:/Users/2302181/AgameAboutBubbles/Bubbles-2025GGJ/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -84,50 +84,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.007492 seconds.
-- Loaded All Assemblies, in  0.319 seconds
+Registered in 0.016819 seconds.
+- Loaded All Assemblies, in  0.384 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1336 ms
+Android Extension - Scanning For ADB Devices 1832 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.558 seconds
-Domain Reload Profiling: 1876ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  2.067 seconds
+Domain Reload Profiling: 2451ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (111ms)
-		LoadAssemblies (145ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (169ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (107ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (95ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (115ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1558ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2067ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1530ms)
+		SetupLoadedEditorAssemblies (2040ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1402ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (1904ms)
+			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (77ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,186 +136,604 @@ Domain Reload Profiling: 1876ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\2302181\AgameAboutBubbles\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll".
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <20a025bba6874f73adca28fec451f638>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <20a025bba6874f73adca28fec451f638>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <579c50ae57254386921f524297a71ff5>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <579c50ae57254386921f524297a71ff5>:0 
+- Loaded All Assemblies, in  1.022 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.560 seconds
+Domain Reload Profiling: 1582ms
+	BeginReloadAssembly (478ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (110ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5923 unused Assets / (4.5 MB). Loaded Objects now: 6695.
+Memory consumption went from 192.4 MB to 187.9 MB.
+Total: 5.357400 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.216900 ms MarkObjects: 3.402300 ms  DeleteObjects: 1.294200 ms)
 
-Loading assembly failed: "Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/unityplastic.dll"
-Loading assembly failed: "Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
-Loading assembly failed: "Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
-Loading assembly failed: "Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/log4netPlastic.dll"
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
-- Loaded All Assemblies, in  1.553 seconds
-Assertion failed on expression: 'IsFileCreated(assemblyPath)'
-Assertion failed on expression: 'IsFileCreated(assemblyPath)'
-Compilation Pipeline: Could not read file Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef
-Fatal Error! Compilation Pipeline: Could not read file Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef
-Crash!!!
-SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/6000.0.15f1/Editor/Data/Mono;.;C:\Users\2302181\AgameAboutBubbles;C:\Users\2302181\AgameAboutBubbles\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor;C:\Windows;C:\Windows\system32;', symOptions: 534, UserName: '2302181'
-OS-Version: 10.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\Unity.exe:Unity.exe (00007FF639360000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.15.38486
-C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFA74610000), size: 2191360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFA73790000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
-C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFA71970000), size: 3907584 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4751
-C:\Windows\system32\hmpalert.dll:hmpalert.dll (00007FFA6FEF0000), size: 1671168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.9.5.1808
-C:\Windows\System32\USER32.dll:USER32.dll (00007FFA733D0000), size: 1761280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\win32u.dll:win32u.dll (00007FFA722D0000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4601
-C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFA74330000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4036
-C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFA71EA0000), size: 1159168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
-C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFA718D0000), size: 630784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFA721B0000), size: 1118208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3593
-C:\Windows\System32\IMM32.DLL:IMM32.DLL (00007FFA73390000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3374
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\Unity.dll:Unity.dll (00007FF99D370000), size: 86372352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.0.15.38486
-C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFA71D30000), size: 1466368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFA72180000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFA727A0000), size: 729088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4391
-C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFA73040000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22621.2506
-C:\Windows\System32\sechost.dll:sechost.dll (00007FFA72950000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFA73670000), size: 1130496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4249
-C:\Windows\System32\ole32.dll:ole32.dll (00007FFA74410000), size: 1724416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\System32\combase.dll:combase.dll (00007FFA72400000), size: 3739648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFA72A00000), size: 4669440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFA73930000), size: 8884224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFA74360000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFA741B0000), size: 462848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFA73580000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
-C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFA71FC0000), size: 466944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFA43320000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFA6BFF0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\etccompress.dll:etccompress.dll (00007FFA42E40000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFA44AC0000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFA60330000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFA6D6E0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2201.24001
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFA5A3D0000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFA6EE20000), size: 2453504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\d3d12.dll:d3d12.dll (00007FF9D4880000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFA6DBE0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFA6F1C0000), size: 1011712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4036
-C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFA6FCA0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFA6FEC0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFA5FFB0000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFA708F0000), size: 1269760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFA64E20000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFA64CE0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\OpenRL.dll:OpenRL.dll (00000140DC220000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FF9ABF70000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFA42C80000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFA6B510000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFA588E0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFA58830000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFA58740000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFA586B0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (00000140DA5F0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
-C:\Windows\SYSTEM32\MSVCP100.dll:MSVCP100.dll (00000000500B0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
-C:\Windows\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000077F20000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\embree.dll:embree.dll (00007FF9AAF80000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFA608A0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
-C:\Windows\SYSTEM32\Secur32.dll:Secur32.dll (00007FFA706A0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\tbb.dll:tbb.dll (00007FFA64C30000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.2022.1111
-C:\Windows\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FFA715C0000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FFA6FC10000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFA70C70000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3810
-C:\Windows\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFA70E80000), size: 430080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFA711D0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFA72040000), size: 503808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4317
-C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFA708D0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3958
-C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFA6D9F0000), size: 724992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFA6F2C0000), size: 9474048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FFA6F080000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\System32\SHCORE.dll:SHCORE.dll (00007FFA73290000), size: 1024000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFA71800000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\system32\IconCodecService.dll:IconCodecService.dll (00007FFA54BA0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFA6D800000), size: 1769472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFA73860000), size: 720896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
-C:\Windows\System32\netprofm.dll:netprofm.dll (00007FFA6B6E0000), size: 491520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
-C:\Windows\System32\NSI.dll:NSI.dll (00007FFA73260000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFA6BB20000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\System32\npmproxy.dll:npmproxy.dll (00007FFA69EB0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
-C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFA6BB00000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFA70090000), size: 1056768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\system32\napinsp.dll:napinsp.dll (00007FFA66DC0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFA66DA0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\System32\winrnr.dll:winrnr.dll (00007FFA66D80000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\system32\wshbth.dll:wshbth.dll (00007FFA66E10000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3958
-C:\Windows\system32\nlansp_c.dll:nlansp_c.dll (00007FFA66DE0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFA6BD20000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4249
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFA69EF0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FF9AA710000), size: 8814592 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFA42B00000), size: 1519616 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFA4A0C0000), size: 364544 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFA66200000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4111
-C:\Windows\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFA71590000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFA6C350000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_48a80ad03ba4b589\nvldumdx.dll:nvldumdx.dll (00007FFA68950000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.6590
-C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFA687B0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFA71160000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\SYSTEM32\wldp.dll:wldp.dll (00007FFA68620000), size: 311296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4746
-C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FFA68470000), size: 1449984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFA73270000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFA71180000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
-C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FFA70830000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4249
-C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_48a80ad03ba4b589\nvgpucomp64.dll:nvgpucomp64.dll (00007FFA61220000), size: 47251456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.6590
-C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_48a80ad03ba4b589\Display.NvContainer\NvMessageBus.dll:NvMessageBus.dll (00007FFA65DD0000), size: 3506176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.12.3354.5005
-C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_48a80ad03ba4b589\nvwgf2umx.dll:nvwgf2umx.dll (00007FFA5A500000), size: 71811072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.6590
-C:\Windows\SYSTEM32\POWRPROF.dll:POWRPROF.dll (00007FFA70630000), size: 315392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3958
-C:\Windows\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFA70610000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.1
-C:\Windows\System32\DriverStore\FileRepository\nv_dispsi.inf_amd64_48a80ad03ba4b589\nvppex.dll:nvppex.dll (00007FFA415B0000), size: 1396736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.6590
-C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFA69100000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
-C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFA642D0000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFA5F330000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
-C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FFA5F020000), size: 1015808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\amsi.dll:amsi.dll (00007FFA63F30000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
-C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFA70F20000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
-C:\Program Files\Sophos\Sophos AMSI Protection\SophosAmsiProvider.dll:SophosAmsiProvider.dll (00007FFA68350000), size: 901120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.9.4073.0
-C:\Windows\SYSTEM32\opencl.dll:opencl.dll (00007FFA44CB0000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\radeonrays.dll:radeonrays.dll (00007FFA44A20000), size: 344064 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FF9A9CC0000), size: 10756096 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFA6B5C0000), size: 1052672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.22621.4746
-C:\Windows\SYSTEM32\edputil.dll:edputil.dll (00007FFA32A00000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3527
-C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFA45440000), size: 962560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4036
-C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFA58BC0000), size: 2052096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.22621.4751
-C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFA65980000), size: 2879488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.22621.4751
-C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFA703F0000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4249
-C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFA70420000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.2506
-C:\Windows\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FFA69C90000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
-C:\Windows\System32\appresolver.dll:appresolver.dll (00007FFA339D0000), size: 729088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\System32\Bcp47Langs.dll:Bcp47Langs.dll (00007FFA4E3D0000), size: 393216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3672
-C:\Windows\System32\OneCoreUAPCommonProxyStub.dll:OneCoreUAPCommonProxyStub.dll (00007FFA68A20000), size: 6475776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.4541
-C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFA6EBE0000), size: 2301952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.22621.3593
+========================================================================
+Received Import Request.
+  Time since last request: 1738.829898 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0060078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========== OUTPUTTING STACK TRACE ==================
+========================================================================
+Received Import Request.
+  Time since last request: 0.539132 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '26fbf20cb0f53cdfba96867c53cf1f45') in 0.0004175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-0x00007FFA719CFB4C (KERNELBASE) RaiseException
-0x00007FF99EEF0F25 (Unity) EditorMonoConsole::LogToConsoleImplementation
-0x00007FF99EEF1BEA (Unity) EditorMonoConsole::LogToConsoleImplementation
-0x00007FF99FB9F66D (Unity) DebugStringToFilePostprocessedStacktrace
-0x00007FF99FB9EA08 (Unity) DebugStringToFile
-0x00007FF99F4A6C0C (Unity) RegisterAssemblyDefinition
-0x00007FF99F8D3D16 (Unity) ProcessAssemblyAssets
-0x00007FF99F8D4A26 (Unity) UpdateScriptCompilationPipelineCaches
-0x00007FF99F7EB6F4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
-0x00007FF99F7EB8FA (Unity) AssetImportWorkerClient::ReloadScriptingDomain
-0x00007FF99F7C66E7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
-0x00007FF99F8A905E (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007FF99F8968EA (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007FF99F897C1E (Unity) asio::detail::win_iocp_io_context::run
-0x00007FF99F8A767C (Unity) IOService::Run
-0x00007FF99F7EF6E6 (Unity) RunAssetImportWorkerClientV2
-0x00007FF99F7EF7AB (Unity) RunAssetImporterV2
-0x00007FF99EFFADB9 (Unity) Application::InitializeProject
-0x00007FF99F600B73 (Unity) UnityMain
-0x00007FF639362FBA (Unity) __scrt_common_main_seh
-0x00007FFA737A259D (KERNEL32) BaseThreadInitThunk
-0x00007FFA7466AF38 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 92.666821 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0003951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========== END OF STACKTRACE ===========
+========================================================================
+Received Import Request.
+  Time since last request: 9.683382 seconds.
+  path: Assets/RenderingItems
+  artifactKey: Guid(aafcfb6f04ad28e43b99ee3b79f74453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RenderingItems using Guid(aafcfb6f04ad28e43b99ee3b79f74453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e6f05cb59ba62affbd17f8ad6b176e3') in 0.0013751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
- * C:/Users/2302181/AppData/Local/Temp/Unity/Editor/Crashes
+========================================================================
+Received Import Request.
+  Time since last request: 54.031464 seconds.
+  path: Assets/RenderingItems/Bubble.mat
+  artifactKey: Guid(ad1449fbd2b35d74cb094fd9de92eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RenderingItems/Bubble.mat using Guid(ad1449fbd2b35d74cb094fd9de92eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64344de0c5a595d4e7757b1b50f263d7') in 1.5026319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.932013 seconds.
+  path: Assets/RenderingItems/BubbleShader.shadergraph
+  artifactKey: Guid(712e5263ebb900b408d09e7eefea8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RenderingItems/BubbleShader.shadergraph using Guid(712e5263ebb900b408d09e7eefea8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55c6d6f646e03890d12fdfd55ef18d57') in 1.5813133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 824.611129 seconds.
+  path: Assets/RenderingItems/BubbleShader.shadergraph
+  artifactKey: Guid(712e5263ebb900b408d09e7eefea8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RenderingItems/BubbleShader.shadergraph using Guid(712e5263ebb900b408d09e7eefea8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5deb6636be2e612eaafd15cf213c97af') in 1.6512903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.747499 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6c280420babc59644b7b2c38e72533d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6c280420babc59644b7b2c38e72533d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '240fe579b4903eeea33e988700bb0cf2') in 0.0006177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5914 unused Assets / (4.6 MB). Loaded Objects now: 6881.
+Memory consumption went from 182.3 MB to 177.7 MB.
+Total: 8.818200 ms (FindLiveObjects: 0.506700 ms CreateObjectMapping: 0.236800 ms MarkObjects: 6.354000 ms  DeleteObjects: 1.719700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (323ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5920 unused Assets / (4.2 MB). Loaded Objects now: 6771.
+Memory consumption went from 191.4 MB to 187.2 MB.
+Total: 5.230300 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.219900 ms MarkObjects: 3.335200 ms  DeleteObjects: 1.256900 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.195 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 1753ms
+	BeginReloadAssembly (434ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (652ms)
+		LoadAssemblies (894ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (557ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6121 unused Assets / (9.3 MB). Loaded Objects now: 6936.
+Memory consumption went from 203.3 MB to 194.0 MB.
+Total: 6.429000 ms (FindLiveObjects: 0.444800 ms CreateObjectMapping: 0.232000 ms MarkObjects: 3.342400 ms  DeleteObjects: 2.408800 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+========================================================================
+Received Import Request.
+  Time since last request: 476.323330 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(84309e220b5aa004dbc28399df662535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(84309e220b5aa004dbc28399df662535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64f8a2642d32499666443e956bfa08d5') in 0.0418037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.141643 seconds.
+  path: Assets/Images
+  artifactKey: Guid(88afe65921c2bb74cb888b9ec861f8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(88afe65921c2bb74cb888b9ec861f8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '094345b1e578adaa41745865ffe217aa') in 0.0014629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.065471 seconds.
+  path: Assets/Images/grass.jpg
+  artifactKey: Guid(846a42e6031cae944950be27187959bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/grass.jpg using Guid(846a42e6031cae944950be27187959bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '474092337bed5d559f9f18c7971903c9') in 0.0287487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 539.927477 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(84309e220b5aa004dbc28399df662535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(84309e220b5aa004dbc28399df662535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '049443d19cbbff2ede863e8c9b0d7b1c') in 0.0070431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.131 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.356 seconds
+Domain Reload Profiling: 7498ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (5849ms)
+		LoadAssemblies (2623ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3004ms)
+			TypeCache.Refresh (1378ms)
+				TypeCache.ScanAssembly (290ms)
+			BuildScriptInfoCaches (1582ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1356ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (882ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (654ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Shader 'HDRP/Unlit': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/LitTessellation': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/TerrainLit': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/TerrainLit': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'HDRP/TerrainLit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'HDRP/LayeredLit': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/AxF': fallback shader 'Hidden/HDRP/FallbackError' not found
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 319 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7931 unused Assets / (41.4 MB). Loaded Objects now: 8497.
+Memory consumption went from 280.3 MB to 238.9 MB.
+Total: 36.511800 ms (FindLiveObjects: 2.116100 ms CreateObjectMapping: 0.926100 ms MarkObjects: 12.360200 ms  DeleteObjects: 21.105900 ms)
+
+Prepare: number of updated asset objects reloaded= 57
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 319 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 319 unused Assets / (30.5 MB). Loaded Objects now: 8497.
+Memory consumption went from 275.2 MB to 244.7 MB.
+Total: 11.338300 ms (FindLiveObjects: 0.434700 ms CreateObjectMapping: 0.179700 ms MarkObjects: 3.946500 ms  DeleteObjects: 6.776000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 152.184636 seconds.
+  path: Assets/HDRPDefaultResources
+  artifactKey: Guid(4eca5d871ab4a534a89c0e988d63b5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources using Guid(4eca5d871ab4a534a89c0e988d63b5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1053474affe91183954e3bc2b37323e2') in 0.0107951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.898616 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(08475e961095e5d4e8ee836000ca5027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(08475e961095e5d4e8ee836000ca5027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e27ca878ff4f8af29ca81f5db3f27253') in 0.0127245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(d3d6aa706ba0cc0448abd7bf26daa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(d3d6aa706ba0cc0448abd7bf26daa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ad6887df8ffb559c327be6b3fbdfdc7') in 0.3088439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 407
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.634745 seconds.
+  path: Assets/Images/grass.jpg
+  artifactKey: Guid(846a42e6031cae944950be27187959bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/grass.jpg using Guid(846a42e6031cae944950be27187959bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1401bd0d6f981bcd83841d80bb398e84') in 0.0222833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.369341 seconds.
+  path: Assets/RenderingItems/Bubble.mat
+  artifactKey: Guid(ad1449fbd2b35d74cb094fd9de92eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RenderingItems/Bubble.mat using Guid(ad1449fbd2b35d74cb094fd9de92eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '373474288938598ed9569aa6f0fbcaee') in 0.6173103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 412
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.512326 seconds.
+  path: Assets/TerrainSampleAssets
+  artifactKey: Guid(144cd666566c4b542b3e02e62868f730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets using Guid(144cd666566c4b542b3e02e62868f730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '255b8813bbe734be81bae4cc9782ab28') in 0.0007406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.563404 seconds.
+  path: Assets/TerrainSampleAssets/README.pdf
+  artifactKey: Guid(19f8f1dbc6e0e2a45aa2e518452ffa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/README.pdf using Guid(19f8f1dbc6e0e2a45aa2e518452ffa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c08bf0d9d90fc41d42d0a5b4afe70b8') in 0.000992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.521498 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Bush_A.prefab
+  artifactKey: Guid(0ec1c69bd47ad864f96cc2b516f6cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Bush_A.prefab using Guid(0ec1c69bd47ad864f96cc2b516f6cd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9caddf0f893d1c17c4f12040ea484b03') in 3.427373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Grass_D.prefab
+  artifactKey: Guid(4dfd50a1f648e984f8188be70774f281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Grass_D.prefab using Guid(4dfd50a1f648e984f8188be70774f281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c9f8c2a7b87ea4e1376aaea6b6c33f80') in 0.0589751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Heather_B.prefab
+  artifactKey: Guid(dd902ff2a6f685041be127af00c09664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Heather_B.prefab using Guid(dd902ff2a6f685041be127af00c09664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '13d36274f30657ecd76d2295579523d4') in 0.0356893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Grass_C.prefab
+  artifactKey: Guid(4c72217d56dcb6749a897a75cad1f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Grass_C.prefab using Guid(4c72217d56dcb6749a897a75cad1f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd1c6b97d0a99ec6b263c6af6fd99c803') in 0.0507511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/BushDry_A.prefab
+  artifactKey: Guid(176a42107ce66c44aa74a67424591597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/BushDry_A.prefab using Guid(176a42107ce66c44aa74a67424591597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b4aa786e191ca79e64308111ef76acb') in 0.0569926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Grass_A.prefab
+  artifactKey: Guid(4e6885e0d11bd224fa27617a4657c329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Grass_A.prefab using Guid(4e6885e0d11bd224fa27617a4657c329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0489183bedd6e9e56f371aadbff45f5f') in 0.0385055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Fern_C.prefab
+  artifactKey: Guid(4786e2698ac97a949a9209febfcbd49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Fern_C.prefab using Guid(4786e2698ac97a949a9209febfcbd49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5c78e9bf89bd74f599c6642acfcb806') in 0.0600712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Plant_B.prefab
+  artifactKey: Guid(0a701dc0b49cb264c88918e012866821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Plant_B.prefab using Guid(0a701dc0b49cb264c88918e012866821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7c3282e51a65a030fe3dde22342066c2') in 0.0553762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/GrassDry_B.prefab
+  artifactKey: Guid(3d4dd2affe15db043a6502ae256cd0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/GrassDry_B.prefab using Guid(3d4dd2affe15db043a6502ae256cd0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78cab6490958abe4f171cee52b955ab0') in 0.0592676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Grass_B.prefab
+  artifactKey: Guid(7b3e6db10d22f504dbc606110b2cb5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Grass_B.prefab using Guid(7b3e6db10d22f504dbc606110b2cb5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '85c96358b72279a800d87e789fc5a8c1') in 0.0627096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/Plant_D.prefab
+  artifactKey: Guid(8569bec78272c564ab74ca5b8a4762f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/Plant_D.prefab using Guid(8569bec78272c564ab74ca5b8a4762f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b02bdb3f6f9636662c9a4db828eb2474') in 0.0945343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TerrainSampleAssets/Prefabs/BushDry_B.prefab
+  artifactKey: Guid(054bf5cf244ff2e4083cbf8eca205cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Prefabs/BushDry_B.prefab using Guid(054bf5cf244ff2e4083cbf8eca205cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98492bba31471ae5776e77462c81d677') in 0.0381979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.800631 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Terrain/Black_Sand_Normal.tif
+  artifactKey: Guid(28a478660ea9d9541b2118c5e95cbb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Terrain/Black_Sand_Normal.tif using Guid(28a478660ea9d9541b2118c5e95cbb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3cb9263c2310e09731deafaa47c9bb18') in 0.0304131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.753950 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon03_Heightmap.tif
+  artifactKey: Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon03_Heightmap.tif using Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ebc47d74311772bab6ccf7a91f4daf1d') in 0.0142802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Cracked_Earth01_Heightmap.tif
+  artifactKey: Guid(fc6089e3bffbdc9489980dbed57a64f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Cracked_Earth01_Heightmap.tif using Guid(fc6089e3bffbdc9489980dbed57a64f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a391fed5002a8f4c8a527f023c7f46e8') in 0.0120607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.879877 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/Fern_Thickness.tif
+  artifactKey: Guid(daa49585c030643489dad5c6e4680dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/Fern_Thickness.tif using Guid(daa49585c030643489dad5c6e4680dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98772a3e292eeb03cb315b3586311a92') in 0.0128156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.881999 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Details/Grass_A_MaskMap.tif
+  artifactKey: Guid(e9a1c1b060b9b2c4989233f1037f9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Details/Grass_A_MaskMap.tif using Guid(e9a1c1b060b9b2c4989233f1037f9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84e309aa687e3f4c522cfd0d89cb5543') in 0.0127541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_BaseColor.tif
+  artifactKey: Guid(e318f31bebce62d48a648da3f8ba56c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_BaseColor.tif using Guid(e318f31bebce62d48a648da3f8ba56c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04d037cb3ef563211894d7c1530b260d') in 0.0160918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.940564 seconds.
+  path: Assets/TerrainSampleAssets/TerrainLayers/Grass_B_TerrainLayer.terrainlayer
+  artifactKey: Guid(bd1fcb10d2c5b5d4ba6e01a34e4735be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/TerrainLayers/Grass_B_TerrainLayer.terrainlayer using Guid(bd1fcb10d2c5b5d4ba6e01a34e4735be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ebb02514c4fbc34073fe5508e04e0151') in 0.0462519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
