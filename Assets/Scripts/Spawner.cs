@@ -10,10 +10,10 @@ public class Spawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for (int i = 0; i < 150; i++)
+        for (int i = 0; i < 550; i++)
         {
             int newx = Random.Range(-255, 255);
-            int newy = Random.Range(30, 240);
+            int newy = Random.Range(30, 140);
             int newz = Random.Range(-300, 300);
             ranndomPlacementVector = new Vector3(newx, newy, newz);
             Instantiate(TheBubbles, ranndomPlacementVector, Quaternion.identity);

@@ -7,7 +7,13 @@ public class SceneManager : MonoBehaviour
     [SerializeField]
     public int theScore;
 
+    [SerializeField]
+    public float endTimer = 15;
+
+
+
     float timer;
+
     [SerializeField]
     public bool understandGravity = true;
 
@@ -28,7 +34,7 @@ public class SceneManager : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            if (timer >= 15)
+            if (timer >= endTimer)
             {
                 understandGravity = true;
                 timer = 0;

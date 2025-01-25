@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|c:\\users\\2302181\\agameaboutbubbles\\bubbles-2025ggj\\assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\assets\\scripts\\bubblescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bubblescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|c:\\users\\2302181\\agameaboutbubbles\\bubbles-2025ggj\\assets\\scripts\\disablefloating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|c:\\users\\2302181\\agameaboutbubbles\\bubbles-2025ggj\\assets\\scripts\\upgradebuttonpowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\upgradebuttonpowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\assets\\scripts\\disablefloating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\disablefloating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\assets\\scripts\\moveablecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveablecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\assets\\scripts\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\assets\\scripts\\bubblescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bubblescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|c:\\users\\2302181\\agameaboutbubbles\\bubbles-2025ggj\\assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\assets\\scripts\\moveablecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{500E1079-347D-4D6D-3B64-A26F364459C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveablecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +34,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UpgradeButtonPowers.cs",
+              "DocumentMoniker": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\UpgradeButtonPowers.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UpgradeButtonPowers.cs",
+              "ToolTip": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\UpgradeButtonPowers.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UpgradeButtonPowers.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T14:05:01.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DisableFloating.cs",
               "DocumentMoniker": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\DisableFloating.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DisableFloating.cs",
               "ToolTip": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\DisableFloating.cs",
               "RelativeToolTip": "Assets\\Scripts\\DisableFloating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T22:32:49.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner.cs",
               "ToolTip": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\Spawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Spawner.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwA4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T21:44:11.708Z",
               "EditorCaption": ""
@@ -66,27 +83,27 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManager.cs",
               "ToolTip": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\SceneManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCEAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T20:28:26.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "BubbleScript.cs",
               "DocumentMoniker": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\BubbleScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BubbleScript.cs",
               "ToolTip": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\BubbleScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\BubbleScript.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwF4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T20:21:28.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MoveAbleCamera.cs",
               "DocumentMoniker": "C:\\Users\\2302181\\AgameAboutBubbles\\Bubbles-2025GGJ\\Assets\\Scripts\\MoveAbleCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveAbleCamera.cs",
@@ -94,8 +111,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MoveAbleCamera.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAcwCcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T19:25:11.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T19:25:11.983Z"
             }
           ]
         }

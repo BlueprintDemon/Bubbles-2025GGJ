@@ -22,6 +22,8 @@ public class BubbleScript : MonoBehaviour
     [SerializeField]
     int maxlimity = 450;
 
+
+    [SerializeField]
     Vector3 moveTo;
 
 
@@ -37,7 +39,11 @@ public class BubbleScript : MonoBehaviour
     void Update()
     {
         gravity = sceneManager.understandGravity;
-        MovementRandom();
+        
+        if (!moving) 
+        {
+            MovementRandom();
+        }
         if (gravity && moving)
         {
             MakeBalloonFloat();
@@ -56,10 +62,10 @@ public class BubbleScript : MonoBehaviour
 
     private void MovementRandom()
     {
-        gravityControl.useGravity = false;
-        int newx = Random.Range(5, 6);
+        
+        int newx = Random.Range(-255, 255);
         int newy = Random.Range(minlimity, maxlimity);
-        int newz = Random.Range(6, 5);
+        int newz = Random.Range(-300, 300);
         
         moveTo = new Vector3(newx, newy, newz);
         moving = true;
@@ -86,6 +92,6 @@ public class BubbleScript : MonoBehaviour
 
     private void MakeBalloonFloat()
     {
-
+        gravityControl.useGravity = false;
     }
 }
