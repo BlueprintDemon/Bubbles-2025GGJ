@@ -85,6 +85,10 @@ public class MoveAbleCamera : MonoBehaviour
             //updates looking and movement each frame 
             //BAD GAME IDEA - have a game where you can update your view every 5 seconds or so, horror game ?
         }
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            transform.position = new Vector3(transform.position.x, +10, transform.position.z);
+        }
     }
     void MovementHandling()
     {
