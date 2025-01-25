@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class BubbleScript : MonoBehaviour
 {
-    SceneManager sceneManager;
+    SceneManagerScript sceneManager;
 
     [SerializeField]
     SphereCollider SphereCollider;
@@ -31,7 +31,7 @@ public class BubbleScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        sceneManager = GameObject.Find("SceneManager").GetComponent<SceneManager>();
+        sceneManager = GameObject.Find("SceneManager").GetComponent<SceneManagerScript>();
         gravityControl = GetComponent<Rigidbody>();
     }
 

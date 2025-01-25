@@ -3,12 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class DisableFloating : MonoBehaviour
 {
-    SceneManager sceneManager;
+    SceneManagerScript sceneManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        sceneManager = GameObject.Find("SceneManager").GetComponent<SceneManager>();
+        sceneManager = GameObject.Find("SceneManager").GetComponent<SceneManagerScript>();
     }
 
     // Update is called once per frame
@@ -24,6 +24,7 @@ public class DisableFloating : MonoBehaviour
         if(other.gameObject.name == "Player")
         {
             sceneManager.understandGravity = false;
+            sceneManager.gameStart = true;
             Debug.Log("FiredButton");
         }
     }

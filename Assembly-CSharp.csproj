@@ -61,12 +61,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Scripts\MoveAbleCamera.cs" />
     <Compile Include="Assets\Scripts\BubbleScript.cs" />
     <Compile Include="Assets\Scripts\UpgradeButtonPowers.cs" />
     <Compile Include="Assets\Scripts\DisableFloating.cs" />
+    <Compile Include="Assets\Scripts\SceneManagerScript.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\DelayPoliceTimer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />

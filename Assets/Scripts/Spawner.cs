@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for (int i = 0; i < 550; i++)
+        for (int i = 0; i < 1550; i++)
         {
             int newx = Random.Range(-255, 255);
             int newy = Random.Range(30, 140);
