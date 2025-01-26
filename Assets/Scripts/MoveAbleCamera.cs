@@ -87,7 +87,7 @@ public class MoveAbleCamera : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            transform.position = new Vector3(transform.position.x, +10, transform.position.z);
+            //transform.position = new Vector3(transform.position.x, +10, transform.position.z);
         }
     }
     void MovementHandling()

@@ -2,6 +2,7 @@ using System;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 using Random = UnityEngine.Random;
 
 public class BubbleScript : MonoBehaviour
@@ -17,14 +18,24 @@ public class BubbleScript : MonoBehaviour
     bool floating;
     bool moving;
 
+    float killTimer = 0;
+
     [SerializeField]
     int minlimity = 125;
     [SerializeField]
     int maxlimity = 450;
 
+    [SerializeField]
+    AudioClip Pop;
+
+    AudioSource audioSource;
 
     [SerializeField]
     Vector3 moveTo;
+
+    bool timetodie = false;
+
+    MeshRenderer meshRenderer;
 
 
 
@@ -33,6 +44,9 @@ public class BubbleScript : MonoBehaviour
     {
         sceneManager = GameObject.Find("SceneManager").GetComponent<SceneManagerScript>();
         gravityControl = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
+        meshRenderer = GetComponent<MeshRenderer>();
+
     }
 
     // Update is called once per frame
@@ -56,7 +70,12 @@ public class BubbleScript : MonoBehaviour
         {
             gravityControl.useGravity = true;
         }
+        killTimer += Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, moveTo, 2 * Time.deltaTime);
+        if (killTimer > 0.2 && timetodie) 
+        {
+            Destroy(gameObject);
+        }
 
     }
 
@@ -75,8 +94,13 @@ public class BubbleScript : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
+
+            audioSource.PlayOneShot(Pop);
+            killTimer = 0;
             sceneManager.theScore++;
-            Destroy(gameObject);
+            //Destroy(gameObject); Used to be here but moved to Update so the sound can play before desctuction
+            timetodie = true;
+            meshRenderer.enabled = false;
         }
     }
 
